@@ -57,9 +57,11 @@ For detailed methods, see [`analysis.md`](./analysis.md).
 ---
 
 ## 📁 Repository Structure
+```
 uganda-diarrhoea-analysis/
 ├── README.md             # This overview file
 ├── analysis.md           # Full analytical report with code & interpretation
 ├── do_files/             # STATA .do files 
 ├── outputs/              # Tables or figures 
 └── .gitignore            # To prevent uploading raw data
+```
