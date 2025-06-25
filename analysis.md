@@ -65,15 +65,15 @@ Final groupings were: 14–19, 20–24, 25–29, and 30+.*
 *No evidence of association (p = 0.85).*
 
 ### iv. Mutual Adjustment: Age and Calendar Year
-*LRT: Both variables retained their strenght of evidence after mutual adjustment.*
+*Mutual adjustment confirmed that both age and calendar year remained independently associated with incidence rate (LRT p < 0.001 for each).*
 
-## 📊 Visualisation of Incidence Ratios
+## 📊 Visualisation of Incidence Rate Ratios
 
-### HRs by Age Band (Crude vs Adjusted)
-![HRs by Age Band](outputs/hr_ageband_crude_vs_adjusted.png)
+### Incidence Rate Ratios by Age Band (Crude vs Adjusted)
+![IRRs by Age Band](outputs/IR_ageband_crude_vs_adjusted.png)
 
-### HRs by Calendar Year (Crude vs Adjusted)
-![HRs by Calendar Year](outputs/hr_calendaryear_crude_vs_adjusted.png)
+### Incidence Rate Ratios by Calendar Year (Crude vs Adjusted)
+![IRRs by Calendar Year](outputs/IR_calendaryear_crude_vs_adjusted.png)
 
 ---
 
