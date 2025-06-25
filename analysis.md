@@ -67,6 +67,14 @@ Final groupings were: 14–19, 20–24, 25–29, and 30+.*
 ### iv. Mutual Adjustment: Age and Calendar Year
 *LRT: Both variables retained their strenght of evidence after mutual adjustment.*
 
+## 📊 Visualisation of Incidence Ratios
+
+### HRs by Age Band (Crude vs Adjusted)
+![HRs by Age Band](outputs/hr_ageband_crude_vs_adjusted.png)
+
+### HRs by Calendar Year (Crude vs Adjusted)
+![HRs by Calendar Year](outputs/hr_calendaryear_crude_vs_adjusted.png)
+
 ---
 
 ## ⚙️ Modelling Strategy and Variable Handling
