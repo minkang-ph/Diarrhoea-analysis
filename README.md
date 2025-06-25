@@ -62,6 +62,13 @@ uganda-diarrhoea-analysis/
 ├── README.md             # This overview file
 ├── analysis.md           # Full analytical report with code & interpretation
 ├── do_files/             # STATA .do files 
-├── outputs/              # Tables or figures 
-└── .gitignore            # To prevent uploading raw data
+└── outputs/              # Tables or figures 
 ```
+
+## 🔍 Key Findings & Interpretation
+
+- Diarrhoea incidence was high (66 per 100 PY), peaking at 6–12 months of age.
+- Maternal hookworm and mansonella infections were associated with ~10% lower incidence.
+- Malaria infection showed no overall association, but effects varied by SES.
+- Among HIV-positive children, previous episodes predicted higher recurrence (dose-response).
+- Potential biases include selection from loss to follow-up, residual confounding, and misclassification.
