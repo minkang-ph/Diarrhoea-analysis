@@ -52,6 +52,13 @@ Final groupings were: 14–19, 20–24, 25–29, and 30+.*
 *Repeated for each covariate to obtain crude incidence rates.*
 
 ---
+## 📊 Table 1: Population Characteristics
+
+Table 1 summarises baseline characteristics of the study population, including child sex, birthweight, HIV status, maternal infection status, maternal sociodemographics, and household infrastructure. These covariates were later examined in regression models.
+
+📎 *See* `outputs/table1_population_characteristics.png` *for the full table.*
+
+---
 
 ## 📊 Time Trends
 
