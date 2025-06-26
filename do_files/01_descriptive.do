@@ -101,3 +101,14 @@ label define magelbl 1 "14–19" 2 "20–24" 3 "25–29" 4 "30+"
 label values magegp magelbl
 tab magegp, m
 
+* ------------------------
+* 9. Number of previous episodes grouping
+* ------------------------
+gen nprevdiar_grp = .
+replace nprevdiar_grp = 0 if nprevdiar == 0
+replace nprevdiar_grp = 1 if nprevdiar == 1
+replace nprevdiar_grp = 2 if nprevdiar == 2
+replace nprevdiar_grp = 3 if inrange(nprevdiar, 3, 4)
+replace nprevdiar_grp = 4 if nprevdiar >= 5
+label define nprevdiar_lbl 0 "0" 1 "1" 2 "2" 3 "3-4" 4 "5+"
+label values nprevdiar_grp nprevdiar_lbl
