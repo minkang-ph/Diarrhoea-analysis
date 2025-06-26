@@ -3,7 +3,7 @@
 * Author: Min Kang
 * Date: [26 Jun 2025]
 * Description: Estimates association between maternal 
-* infections and hazard of childhood diarrhoea, with
+* infections and rate of childhood diarrhoea, with
 * a priori and fully adjusted models and interaction tests
 *******************************************************
 
