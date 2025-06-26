@@ -1,5 +1,5 @@
 *******************************************************
-* 01_descriptive_and_incidence.do - Descriptive analysis and incidence estimation
+* 01_descriptive.do - Descriptive analysis
 * Author: Min Kang
 * Date: [25 Jun 2025]
 * Description: Generates summary stats, recodes variables,
@@ -101,21 +101,3 @@ label define magelbl 1 "14–19" 2 "20–24" 3 "25–29" 4 "30+"
 label values magegp magelbl
 tab magegp, m
 
-
-* INCIDENCE RATE ESTIMATION (First Event Only) *
-* ---------------------------------------------
-* Set survival data structure using first recorded diarrhoea episode
-stset timeout, fail(diarrhoea) origin(timein) enter(timein) id(bidno) scale(365.25)
-stdes  // Expect: ~2,803.9 person-years; median ~7.5 months; max ~5 years
-
-* INCIDENCE RATE ESTIMATION (Recurrent Events)
-* --------------------------------------------
-use "data/uganda_multipleevents.dta", clear
-* NOTE: This dataset contains multiple episodes per child
-
-stset timeout, fail(diarrhoea) id(bidno) origin(dob) enter(timein) exit(time .) scale(365.25)
-* Expect: 35,156 obs; 6,117 events over 9,549.1 person-years
-
-quietly streg, dist(exp) frailty(gamma) shared(bidno) forceshared
-* Baseline rate ~0.661 events per person-year
-* LRT for theta ≠ 0: p < 0.001
